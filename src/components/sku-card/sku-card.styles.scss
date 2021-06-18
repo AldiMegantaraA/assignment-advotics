@@ -1,0 +1,21 @@
+.sku-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .product-detail {
+        display: flex;
+        flex-direction: column;
+
+        .subtitle-product{
+            display: flex;
+            flex-direction: row;
+            margin: -12px 0;
+            align-items: center;
+            margin-right: 8px;
+        }
+    }
+
+
+}

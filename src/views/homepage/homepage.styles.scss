@@ -1,0 +1,92 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    padding: 0 7rem;
+    width: 100%;
+    margin-top: 6rem;
+
+    .head-home {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .filter-period {
+            display: flex;
+            float: right;
+        }
+    }
+
+    .market-insight{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 12px;
+        background-color: #37B04C;
+        color: #fff;
+        margin-top: 20px;
+
+        .help {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .sales-report {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12px;
+        width: 24%;
+        border: 0.5px solid #CDCDCD;
+        padding: 4px 8px;
+
+        .title{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .subtitle {
+                display: flex;
+                flex-direction: column;
+                margin-top: -20px;
+
+                .report-text{
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: -20px;
+                }
+            }
+        }
+    }
+
+    .grid-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 36px;
+        
+        .container-chart{
+            width: 40rem;
+        }
+        .container-card{
+            border: 0.5px solid #CDCDCD;
+            width: 18rem;
+            padding: 4px 20px;
+
+            .title-card{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+       
+    }
+}
